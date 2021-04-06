@@ -29,7 +29,7 @@ impl Server {
                                 Ok(request) => {
 
                                 },
-                                Err(err) => println!("Failed to parse a request: {}", err);
+                                Err(err) => println!("Failed to parse a request: {}", err)
                             }
                         },
                         Err(err) => {
